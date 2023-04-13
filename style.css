@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://static8.depositphotos.com/1391774/933/i/950/depositphotos_9334068-stock-photo-ripped-newspapers.jpg");
+  text-align: center;
+  width: 580px;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+}
+
+.photo img {
+  width: 70%;
+}
+
+.pants img {
+  width: 20vw;
+}
+
+.about{
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: justify;
+  line-height: 150%;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 16px;
+}
+
+.machine-ecrire {
+  animation: machine 1s linear infinite;
+}
+
+.header {
+  display: inline-flex;
+  width: 100%;
+  justify-content: center;
+  background-color: #252525;
+  color: #ffff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;  
+}
+
+.icon-home{
+  align-items: center;
+  font-size: 30px;
+}
+
+.imgarticle {
+  max-width: 400px;
+  height: auto;
+}
+
+.vtm {
+  width: 30vw;
+}
+
+.vtm:hover {
+  filter: opacity(90%);
+  animation: zoom 0.3s linear forwards;
+}
+
+.vtm:onclick
+
+.pants:hover {
+  filter: opacity(90%);
+}
+
+.iconzer {
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  color: #d1af76;
+}
+
+.ornm {
+  filter: invert(100%);
+}
+
+.iconzer:hover {
+  color: #846e46;
+}
+
+.lll {
+  color: #eee;
+}
+
+.titre {
+  color: #eee;
+}
+
+.titre:hover {
+  color: #cccccc;
+  font-size: 33px;
+}
+
+.btn-about{
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+.drops {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #d1af76;
+  color: #ffff;
+  font-size: 12px;
+}
+
+.drops img {
+  height: 50px;
+}
+
+.main {
+  background-color: #ffff;
+  color: #252525;
+}
+
+.rldate {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/209/820/non_2x/square-pattern-png.png");
+  background-size: 250px;
+  background-color: #111;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-right: 15px;
+  color: #ffff;
+  width: 150px;
+  height: 50px;
+  text-align: end;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+
+
+
+
+.rldate1 {
+  font-size: 10px;
+}
+
+.rldate2 {
+  font-size: 20px;
+  margin-top: 2px;
+  font-weight: bold;
+  color: #d1af76;
+}
+
+.prix {
+  background-color: #d1af76;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #252525;
+  width: 165px;
+  height: 15px;
+  font-weight: bold;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.btn {
+  transition-duration: 0.4s;
+  background-color: #252525;
+  border-radius: 15px;
+  color: #eee;
+  height: 40px;
+  width: 100px;
+  border-style: none;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  background-color: #eee;
+  color: #252525;
+  border-width: 3px;
+  border-style: groove;
+  border-color: #d1af76;
+}
+
+.marquemodele {
+  margin-top: 25px;
+  font-weight: bold;
+  text-align: left;
+  font-size: 25px;
+}
+
+.libelle {
+  font-weight: bold;
+  text-align: left;
+  font-size: 125%;
+}
+
+.prix,
+.rldate,
+.marquemodele,
+.libelle {
+  margin-left: 20px;
+}
+
+.photo img {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: #111;
+  color: #d1af76;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 13px;
+}
+
+.unsub {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-top: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link {
+  color: #d1af76;
+}
+
+a:visited {
+  color: #d1af76;
+}
+
+a:hover {
+  color: #846e46;
+}
+
+.footer img {
+  filter: invert(100%);
+  height: 50px;
+}
+
+.lg {
+  background-color: #ededed;
+  margin-top: 75px;
+  margin-bottom: 0px;
+  border-radius: 15px;
+  background-image: url("https://img.freepik.com/vecteurs-libre/vintage-fond-fleurs-ornementales_52683-28040.jpg");
+}
+
+@keyframes machine {
+  0% {
+    filter: opacity(100%);
+  }
+  49% {
+    filter: opacity(100%);
+  }
+  50% {
+    filter: opacity(0%);
+  }
+  99% {
+    filter: opacity(0%);
+  }
+  100% {
+    filter: opacity(100%);
+  }
+}
+
+@keyframes zoom {
+  from{
+    height: 70%;
+    width: 70%;
+  }
+  to{
+    height: 75%;
+    width: 75%;
+  }
+  
+}
